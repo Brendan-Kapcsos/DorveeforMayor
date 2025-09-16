@@ -140,6 +140,7 @@ h3 {
   left: 6vw;
   z-index: 0;
   pointer-events: none;
+  align-self: flex-start;
 }
 
 .banner-img.about {
@@ -373,8 +374,8 @@ footer a {
 @media (max-width: 767px) {
   .banner-img {
     position: relative;
-    height: calc(100%);
-    width: auto;
+    height: auto;
+    width: 100%;
     top: 0;
     left: -3vw;
     z-index: 0;
@@ -382,8 +383,8 @@ footer a {
   }
 
   .banner-img.about {
-    height: calc(100%);
-    width: auto;
+    height: auto;
+    width: 100%;
     top: 0;
     left: 5vw;
     transform: scale(1.33);
