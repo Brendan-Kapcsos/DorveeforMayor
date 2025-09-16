@@ -134,6 +134,7 @@ h3 {
 
 .banner-img {
   position: absolute;
+  object-fit: cover;
   height: calc(100% + 90px);
   top: -90px;
   left: 6vw;
